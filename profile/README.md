@@ -1,6 +1,8 @@
 # Proofline
 
-Proofline is an open-source project for encrypted incident capture and trusted evidence access.
+**Alert your people. Record the truth.**
+
+Proofline is an open-source safety and evidence-capture project intended to help people notify trusted contacts, share critical context, and preserve a secure record when something goes wrong.
 
 The project is designed around preserving encrypted records of important incidents, including emergencies, safety checks, and non-emergency interactions where a durable private record may matter.
 
