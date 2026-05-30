@@ -14,7 +14,7 @@ The active implementation is:
 
 | Repository | Status | Purpose |
 |---|---|---|
-| [`open-proofline/server`](https://github.com/open-proofline/server) | Active | Go backend for encrypted chunk ingest, incident metadata, token-scoped incident review, evidence bundles, deployment docs, and server release workflow. |
+| [`open-proofline/server`](https://github.com/open-proofline/server) | Active | Go backend for encrypted chunk ingest, incident metadata, optional SQLite/PostgreSQL metadata, optional local/S3-compatible encrypted blob storage, token-scoped incident review, evidence bundles, deployment docs, and server release workflow. |
 
 Planned future repositories:
 
@@ -44,8 +44,9 @@ Proofline aims to support:
 The current server backend:
 
 - receives already-encrypted chunks
-- stores metadata in SQLite
-- stores encrypted blobs on local disk
+- stores metadata in SQLite by default, with optional PostgreSQL when explicitly configured
+- stores encrypted blobs on local disk by default, with optional S3-compatible object storage when explicitly configured
+- performs a startup check against optional Valkey/Redis-compatible coordination when explicitly configured
 - exposes private `/v1` API routes for write/admin-style operations
 - exposes token-scoped read-only incident viewer routes
 - produces encrypted ZIP evidence bundles with JSON manifests
