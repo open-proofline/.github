@@ -27,6 +27,18 @@ Planned future repositories:
 
 These repositories will be created when their scope is ready. Until then, planning notes may live in the server repository.
 
+## Mobile client concepts
+
+Proofline is planned around native iOS and Android clients for private recording, safety checks, trusted-contact alerts, and evidence review.
+
+The images below are from the Android Material 3 Figma prototypes, they're early interface concepts only. The current public implementation is the server backend; mobile clients and account/recovery flows are not yet implemented.
+
+![Proofline Android M3 UI concept screens](/assets/android-m3-concept-screens.png)
+
+**View the full mobile concept set on Figma:**
+- [iOS 26 Concepts](https://www.figma.com/design/C7ojEm3GNfZ7zfFP7jPK4z/Proofline-Android---iOS-Concepts?node-id=134-2&t=p79BbGYDVQKcMCCM-1)
+- [Android M3 Concepts](https://www.figma.com/design/C7ojEm3GNfZ7zfFP7jPK4z/Proofline-Android---iOS-Concepts?node-id=135-2&t=p79BbGYDVQKcMCCM-1)
+
 ## Project goals
 
 Proofline aims to support:
