@@ -14,8 +14,8 @@ The active implementation is:
 
 | Repository | Status | Purpose |
 |---|---|---|
-| [`open-proofline/server`](https://github.com/open-proofline/server) | Active | Go backend for encrypted chunk ingest, incident metadata, optional SQLite/PostgreSQL metadata, optional local/S3-compatible encrypted blob storage, token-scoped incident review, evidence bundles, deployment docs, and server release workflow. |
-| [`open-proofline/web-client`](https://github.com/open-proofline/web-client) | Active | Experimental Proofline web client prototype. Account portal, authorised incident review, trusted-contact access, and eventual replacement for the current token-only viewer. |
+| [`server`](https://github.com/open-proofline/server) | Active | Go backend for encrypted chunk ingest, incident metadata, optional SQLite/PostgreSQL metadata, optional local/S3-compatible encrypted blob storage, token-scoped incident review, evidence bundles, deployment docs, and server release workflow. |
+| [`web-client`](https://github.com/open-proofline/web-client) | Active | Experimental Proofline web client prototype. Account portal, authorised incident review, trusted-contact access, and eventual replacement for the current token-only viewer. |
 
 Planned future repositories:
 
