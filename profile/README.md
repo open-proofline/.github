@@ -65,7 +65,7 @@ The long-term project direction includes:
   operational hardening work is ready.
 
 The goal is not to pretend software can replace emergency services, legal
-advice, a support network, or human judgment. It cannot. Annoying, but true.
+advice, a support network, or human judgment. It cannot.
 
 ## What exists today
 
