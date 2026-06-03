@@ -5,10 +5,9 @@ Proofline is an experimental open-source safety and evidence-capture project.
 It is maintained by one person, is not operated as a for-profit business, and is
 not production-ready emergency infrastructure.
 
-The project exists to explore tools that can help people preserve encrypted
-records, share critical context with trusted contacts, and review incident
-metadata when something goes wrong. It is still early, security-sensitive, and
-under active design.
+Proofline is being built as an encrypted incident-capture and safety-context system. The intended flow is that a user can start a recording, safety check, evidence note, or important interaction record from a client app; the client captures audio, video, GPS/location data, timestamps, and supporting context; media and sensitive data are encrypted before upload; and the server preserves the already-encrypted evidence as continuously uploaded chunks so critical records can survive if the device is lost, damaged, powered off, or taken.
+
+Future Proofline designs may include emergency SMS and email notifications to trusted contacts, live location/context sharing through the web client, and near-live audio/video evidence upload for authorised review. Those workflows are not production-ready today. Proofline is still early, security-sensitive, and under active design, and it must not be treated as emergency dispatch, emergency-services integration, or a guaranteed real-time safety system.
 
 ## Maintainer and funding reality
 
