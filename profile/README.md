@@ -19,13 +19,14 @@ subscriptions for cost recovery. That is intended to help cover hosting,
 database, object storage, email delivery, monitoring, backup, maintenance, and
 release costs. It is not intended as profit-maximizing SaaS branding.
 
-Self-hosting remains part of the open-source direction. A future one-time
-donation path for the main website may be added separately, but donations are
-not part of the current implementation and are not an account-access substitute
-unless a later design explicitly says so.
+Self-hosting remains part of the open-source direction. The main website now
+lists optional cryptocurrency donation addresses for project upkeep. Donations
+do not create accounts, unlock features, provide support priority, or provide
+emergency assistance. Card donations, checkout links, payment-gated account
+access, subscriptions, and active paid account creation are not implemented.
 
 This project does not currently claim registered charity or nonprofit status.
-Do not treat subscriptions or future donations as tax-deductible unless official
+Do not treat subscriptions or donations as tax-deductible unless official
 project documentation says that a legally reviewed structure exists.
 
 ## Current status
