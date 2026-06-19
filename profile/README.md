@@ -87,11 +87,11 @@ infrastructure.
 
 Current core repositories:
 
-| Repository                                                                  | Status                | Role                                                                                                                                                                                                                                                                                                                                                                     |
-| --------------------------------------------------------------------------- | --------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
-| [`open-proofline/website`](https://github.com/open-proofline/website)       | Current, experimental | Static public website for user-facing project framing, current status, community services, support links, repository links, governance posture, README baseline, and safety boundaries. It is not a backend, client app, admin tool, or emergency system.                                                                                                                |
-| [`open-proofline/server`](https://github.com/open-proofline/server)         | Current, experimental | Go backend for authenticated `/v1` routes, private admin web/operator surfaces, read-only incident viewer routes, local account/session auth, email/TOTP/WebAuthn second-factor flows, encrypted chunk ingest, metadata, storage, sharing/wrapped-key metadata, deletion/retention workflows, optional PostgreSQL/S3-compatible/Valkey backends, relay support, and docs. |
-| [`open-proofline/web-client`](https://github.com/open-proofline/web-client) | Current, experimental | React account portal and incident-review prototype. Current scope includes login/logout, registration and email-verification flows, conservative browser session handling, mock/live API modes, account and incident metadata views, contact/sharing/wrapped-key metadata views, Tailwind/Catalyst UI components, and frontend validation workflows.                     |
+| Repository                                                                  | Status                | Role                                                                                                                                                                                                 |
+| --------------------------------------------------------------------------- | --------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| [`open-proofline/website`](https://github.com/open-proofline/website)       | Current, experimental | Static public website for user-facing project framing, current status, community services, support links, repository links, governance posture, README baseline, and safety boundaries. It is not a backend, client app, admin tool, or emergency system. |
+| [`open-proofline/server`](https://github.com/open-proofline/server)         | Current, experimental | Experimental Go backend for authenticated API routes, encrypted chunk ingest, metadata and storage workflows, token-scoped viewing, operator maintenance, and deployment/security docs. Not public production emergency infrastructure. |
+| [`open-proofline/web-client`](https://github.com/open-proofline/web-client) | Current, experimental | React account portal and incident-review prototype for account flows, conservative browser session handling, and metadata views. Not a recorder, emergency workflow, or production decryption client. |
 
 Planned future repositories:
 
@@ -185,21 +185,9 @@ At a high level:
 - community services are operated separately from Proofline's safety, evidence,
   account, and emergency boundaries
 
-The current server backend can authenticate local accounts, manage sessions and
-reviewed second-factor flows, expose authenticated main routes and private admin
-surfaces, receive already-encrypted chunks, verify uploads, store encrypted
-blobs and metadata, create encrypted ZIP evidence bundles, track
-trusted-contact and wrapped-key metadata for future authorized review flows, and
-support selected relay and operator-maintenance workflows.
-
-The current web client can render an experimental account portal prototype,
-provide login/logout, registration, and email-verification flows, run in mock or
-reviewed live API modes, display account and incident metadata views, display
-contact/sharing/wrapped-key metadata views, show prototype and
-emergency-reliance warnings, and run frontend validation.
-
-For implementation details, read the owning repository. Summaries here are not a
-substitute for source-of-truth docs.
+For implementation details, read the owning repository. This organization
+profile is a high-level map, not a second source of truth with its own
+maintenance backlog.
 
 ## What Does Not Exist Yet
 
